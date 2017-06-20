@@ -7,6 +7,6 @@ FS.readdirSync(__dirname + '/../steam_language').forEach(function(filename) {
 	}
 	
 	var file = FS.readFileSync(__dirname + '/../steam_language/' + filename).toString('ascii');
-	file = file.replace(/; removed/g, '; obsolete').replace(/\> removed/g, '> removed');
+	file = file.replace(/; removed/g, '; obsolete').replace(/\> removed/g, '> obsolete');
 	FS.writeFileSync(__dirname + '/../steam_language/' + filename, file);
 });
