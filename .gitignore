@@ -1,5 +1,5 @@
 node_modules
 npm-debug.log
 
-protobufs
-steam_language
+steam_language/.svn/
+protobufs/.svn/
